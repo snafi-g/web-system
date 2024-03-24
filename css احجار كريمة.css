@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("./unnamed.png");
+    background-repeat:round;
+    background-size: cover;
+   
+  }
+ 
+  
+  h2{
+    background-color: rgb(12, 10, 10);
+    background-position: center;
+    color: rgb(248, 245, 245);
+  }
+  
+  p{
+    background-color: rgb(245, 239, 239);
+    color: rgb(12, 66, 128);
+  }
+  header {
+    
+    
+    background-color: rgb(235, 242, 250);
+    background-image: url("./unnamed.png");
+    background-repeat:no-repeat repeat ;
+    background-size: 150px;
+    background-position: center ;
+    color: rgb(4, 0, 25);
+    padding: 29px;
+    margin: 29px;
+
+  }
+  
+  header h1 {
+    color: rgb(7, 3, 233);
+      
+    margin: 0;
+  }
+  
+  main {
+    padding: 2px;
+
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* تنسيق قائمة الأحجار الكريمة */
+  .stones-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .stone {
+    width: 190px;
+
+    background-color: rgb(61, 60, 60);
+    border: 1px solid rgb(14, 13, 13);
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .stone img.stone-image {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .stone-details {
+    margin-top: 10px;
+  }
+  
+  .stone-details h3 {
+    
+      background-color: rgb(251, 251, 255);
+      color: rgb(7, 59, 90);
+    
+    margin: 10;
+    font-size: 18px;
+  }
+  
+  .stone-details p {
+    margin: 15px ;
+    font-size: 14px;
+  }
+  
+  .stone-details a {
+    
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #333;
+    text-decoration: none;
+    background-color: rgb(198, 211, 21);
+    padding: 5px 10px;
+    border-radius: 3px;
+    
+  }
+  
+ 
